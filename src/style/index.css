@@ -1,20 +1,76 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
 }
 
-* {
+.header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.register-button {
+  background-color: #42b72a;
+}
+
+.content {
+  width: 981px;
+  margin: auto;
+}
+
+.content .title {
+  font-size: 20px;
+}
+
+.content .chooseType {
+  display: flex;
+}
+
+.content .chooseType .tab {
+  background-color: white;
+  text-align: center;
+  margin-right: 20px;
+  height: 500px;
+}
+
+.annotation {
+  margin: 20px;
+  color: lightgrey;
+}
+
+.img {
+  margin-top: 30px;
+}
+
+.button {
+  margin-top: 70px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
   box-sizing: border-box;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.register-button {
+  margin: 30px 0 5px 5px;
+  padding: 3px 10px 0 10px;
+}
+
+.facebook {
+  display: flex;
+}
+.join-facebook {
+  margin: 30px 0 5px 5px;
+}
+.select {
+  border-top: 8px solid white;
+  border-right: 5px solid #3b5998 !important;
+  border-bottom-width: 0px !important;
+  border-left: 5px solid #3b5998 !important;
 }
